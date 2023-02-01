@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='style.css'>
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <p id="title">Contando...</p>
+    </header>
+    <section>
+        <div>
+            <form id="numbers">
+                Início: 
+                <input type="number" id="n1" placeholder="1" required>
+                <p>
+                    Fim: 
+                <input type="number" id="n2" placeholder="10" required>
+                </p>
+                <p>
+                    Passo: 
+                <input type="number" placeholder="2" id="passo">
+                </p>
+            </form>
+                <button id="botao" onclick="contar()">Contar</button>
+        </div>
+        <div id="baixo">
+            <p>Resultado:</p>
+            <div id="msg"></div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

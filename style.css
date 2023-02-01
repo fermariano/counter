@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+
+body {
+    background-color: #EEF1FF;
+    font-size: 20px;
+}
+
+header {
+    color: #A084DC;
+    text-align: center;
+    font-size: 35px;
+    font-family: Roboto Mono;
+}
+
+section {
+    background: rgb(210,218,255);
+    background: linear-gradient(0deg, rgba(210,218,255,1) 14%, rgba(170,196,255,1) 100%);
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    font-family: Roboto Mono;
+
+}
+
+#botao {
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+    font-family: Roboto Mono;
+    background-color: #d5c2f5;
+}
+
+#botao:hover {
+    background-color: #c5b1f3;
+}
+
+#baixo {
+    margin-top: 50px;
+}
